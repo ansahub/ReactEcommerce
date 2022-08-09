@@ -3,7 +3,7 @@ import Home from './components/routes/home.component'
 import Navigation from './components/routes/navigation.component';
 import Shop from './components/routes/shop.component';
 import Login from './components/routes/login.component';
-import SignIn from './components/routes/sigin.component';
+import SignIn from './components/routes/signin.component';
 
 const App = () => {
   return (
