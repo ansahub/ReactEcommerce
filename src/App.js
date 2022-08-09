@@ -3,7 +3,7 @@ import Home from './components/routes/home.component'
 import Navigation from './components/routes/navigation.component';
 import Shop from './components/routes/shop.component';
 import Login from './components/routes/login.component';
-import SignIn from './components/routes/signin.component';
+import Authentication from './components/authentication/authentication.component';
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path='login' element={<Login />} />
         <Route path='shop' element={<Shop />} />
-        <Route path='sign-in' element={<SignIn />} />
+        <Route path='auth' element={<Authentication />} />
       </Route>
     </Routes>
   );
