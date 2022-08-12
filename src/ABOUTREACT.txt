@@ -1,0 +1,12 @@
+Components are independent and reusable bits of code. 
+They serve the same purpose as JavaScript functions, 
+but work in isolation and return HTML. 
+
+You can manipulate certain html without 
+having to reload the function and that happens 
+through something called "STATE". 
+
+PROP:
+Arguments of a function
+
+UseEffect
